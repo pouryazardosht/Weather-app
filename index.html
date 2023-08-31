@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Weather App || #1 Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="searchBox">
+        <input
+          type="text"
+          id="search"
+          placeholder="Enter City Name..."
+          autofocus
+        />
+        <button id="searchButton">
+          <i class="bx bx-search"></i>
+        </button>
+      </form>
+      <p class="invalid">City name is invalid, please try again!</p>
+    </div>
+    <div id="result"></div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
